@@ -1,14 +1,238 @@
 {
-
   "version": 2,
   "profiles": [
-
+    {
+      "profileName": "Boeing 737 MAX (MSFS 2024)",
+      "sim": "fs2024",
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "ND"
+        ]
+      ],
+      "titlePrefixes": [
+        "737-MAX",
+        "737 MAX"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -15,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 161,
+          "targetY": 33,
+          "targetWidth": 936,
+          "targetHeight": 684,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -15,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1457,
+          "targetY": 33,
+          "targetWidth": 936,
+          "targetHeight": 684,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "Boeing 737 PMDG (MSFS 2024)",
+      "sim": "fs2024",
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "MFD"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "titlePrefixes": [
+        "737-800",
+        "737-600",
+        "737-700"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 10,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 645,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -34
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1290,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 60,
+            "pitchDegrees": -30,
+            "yawDegrees": -36
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1935,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 2000
+        }
+      ]
+    },
+    {
+      "profileName": "Boeing 777-200ER (MSFS 2024)",
+      "sim": "fs2024",
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "MFD"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "titlePrefixes": [
+        "777-200ER"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 10,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 645,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -34
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1290,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 60,
+            "pitchDegrees": -30,
+            "yawDegrees": -36
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1935,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 2000
+        }
+      ]
+    },
     {
       "profileName": "Boeing 777-300ER (MSFS 2024)",
       "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "777-300ER" ],
-
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "MFD"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "titlePrefixes": [
+        "777-300ER"
+      ],
       "panels": [
         {
           "name": "PFD",
@@ -77,253 +301,21 @@
       ]
     },
     {
-      "profileName": "Boeing 777-200ER (MSFS 2024)",
-      "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "777-200ER" ],
-      "panels": [
-        {
-          "name": "PFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": 0
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 10,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "ND",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": -12
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 645,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "EICAS",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": -34
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1290,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "MFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 60,
-            "pitchDegrees": -30,
-            "yawDegrees": -36
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1935,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 2000
-        }
-      ]
-    },
-{
-      "profileName": "Boeing 737 PMDG (MSFS 2024)",
-      "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "737-800", "737-600", "737-700" ],
-      "panels": [
-        {
-          "name": "PFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": 0
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 10,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "ND",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": -12
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 645,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "EICAS",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": -34
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1290,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "MFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 60,
-            "pitchDegrees": -30,
-            "yawDegrees": -36
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1935,
-          "targetY": 70,
-          "targetWidth": 616,
-          "targetHeight": 616,
-          "postPopDelayMs": 2000
-        }
-      ]
-    },
-
-{
-      "profileName": "Boeing 737 MAX (MSFS 2024)",
-      "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "ND"] ],
-      "titlePrefixes": [ "737-MAX", "737 MAX" ],
-      "panels": [
-        {
-          "name": "PFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -15,
-            "yawDegrees": 0
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 161,
-          "targetY": 33,
-          "targetWidth": 936,
-          "targetHeight": 684,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "ND",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -15,
-            "yawDegrees": -12
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1457,
-          "targetY": 33,
-          "targetWidth": 936,
-          "targetHeight": 684,
-          "postPopDelayMs": 1500
-        },
-       ]
-    },
-{
-      "profileName": "ATR (MSFS2020)",
-      "sim": "fs2020",
-      "firstOfficerSwaps": [ ["PFD", "ND", "MFD"] ],
-      "titlePrefixes": [ "ATR" ],
-      "panels": [
-        {
-          "name": "PFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -30,
-            "yawDegrees": 0
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 266,
-          "targetY": 0,
-          "targetWidth": 554,
-          "targetHeight": 684,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "ND",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -30,
-            "yawDegrees": -12
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1000,
-          "targetY": 0,
-          "targetWidth": 554,
-          "targetHeight": 684,
-          "postPopDelayMs": 1500
-        },
-{
-          "name": "MFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -24,
-            "yawDegrees": -33
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1734,
-          "targetY": 0,
-          "targetWidth": 554,
-          "targetHeight": 684,
-          "postPopDelayMs": 1500
-        },
-
-       ]
-    },
-
-{
       "profileName": "Boeing 787 (MSFS 2024)",
       "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "787" ],
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "MFD"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "titlePrefixes": [
+        "787"
+      ],
       "panels": [
         {
           "name": "PFD",
@@ -356,88 +348,15 @@
           "targetWidth": 936,
           "targetHeight": 684,
           "postPopDelayMs": 1500
-        },
-       ]
+        }
+      ]
     },
-{
-      "profileName": "Airbus A319-321",
-      "sim": "fs2020",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "A320" ],
-      "panels": [
-        {
-          "name": "PFD",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -25,
-            "yawDegrees": 0
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 3,
-          "targetY": 5,
-          "targetWidth": 669,
-          "targetHeight": 669,
-          "postPopDelayMs": 1500
-        },
-        {
-          "name": "ND",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -25,
-            "yawDegrees": -12
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 717,
-          "targetY": 5,
-          "targetWidth": 669,
-          "targetHeight": 669,
-          "postPopDelayMs": 1500
-        },
-{
-          "name": "SAI",
-          "cameraFraming": {
-            "zoomPercent": 150,
-            "heightPercent": 50,
-            "pitchDegrees": -24,
-            "yawDegrees": -24
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1508,
-          "targetY": 27,
-          "targetWidth": 252,
-          "targetHeight": 252,
-          "postPopDelayMs": 1500
-        },
-{
-          "name": "ED",
-          "cameraFraming": {
-            "zoomPercent": 100,
-            "heightPercent": 50,
-            "pitchDegrees": -20,
-            "yawDegrees": -32
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1885,
-          "targetY": 3,
-          "targetWidth": 669,
-          "targetHeight": 669,
-          "postPopDelayMs": 1500
-        },
-
-
-       ]
-    },
-{
-      "profileName": "Airbus A319-321",
+    {
+      "profileName": "Default A320NEO",
       "sim": "fs2024",
-      "firstOfficerSwaps": [ ["PFD", "MFD"], ["ND", "EICAS"] ],
-      "titlePrefixes": [ "A321" ],
+      "titlePrefixes": [
+        "A320NEO"
+      ],
       "panels": [
         {
           "name": "PFD",
@@ -471,23 +390,15 @@
           "targetHeight": 669,
           "postPopDelayMs": 1500
         },
-{
-          "name": "SAI",
-          "cameraFraming": {
-            "zoomPercent": 350,
-            "heightPercent": 50,
-            "pitchDegrees": -15.1,
-            "yawDegrees": -20.5
-          },
-          "sourceXPercent": 0.5,
-          "sourceYPercent": 0.5,
-          "targetX": 1508,
-          "targetY": 27,
-          "targetWidth": 252,
-          "targetHeight": 252,
-          "postPopDelayMs": 1500
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
         },
-{
+        {
           "name": "ED",
           "cameraFraming": {
             "zoomPercent": 200,
@@ -502,28 +413,1138 @@
           "targetWidth": 669,
           "targetHeight": 669,
           "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "FBW A320",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "A320"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -22,
+            "yawDegrees": 1.4
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
         },
-
-
-       ]
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -22,
+            "yawDegrees": -10
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 250,
+            "heightPercent": 50,
+            "pitchDegrees": -22.5,
+            "yawDegrees": -24.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1511,
+          "targetY": 28,
+          "targetWidth": 252,
+          "targetHeight": 252,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -19,
+            "yawDegrees": -32.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "Default A321",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "A321"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -15,
+            "yawDegrees": 3
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -14,
+            "yawDegrees": -8.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a321speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -12,
+            "yawDegrees": -27.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "Default Airbus A330",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "A330"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -12.5,
+            "yawDegrees": 5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -12.5,
+            "yawDegrees": -7.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a330speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 180,
+            "heightPercent": 50,
+            "pitchDegrees": -11,
+            "yawDegrees": -29.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "Fenix Airbus A320 (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "FenixA320"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -24,
+            "yawDegrees": 1.7
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 0,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -23,
+            "yawDegrees": -11
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 714,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -25,
+            "yawDegrees": -25
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1511,
+          "targetY": 28,
+          "targetWidth": 252,
+          "targetHeight": 252,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 60,
+            "pitchDegrees": -20.5,
+            "yawDegrees": -30.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1890,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 2000
+        }
+      ]
+    },
+    {
+      "profileName": "AT802 (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "AT802"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "aviat (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "aviat"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Cessna 172 Six-Pack (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "C172SP",
+        "C152"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Diamond DA40 (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "Diamond"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Douglas (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "Douglas"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "nxcub (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "nxcub"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Piper PA (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "Piper"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+ {
+      "profileName": "FBW A320",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "A320"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -23.5,
+            "yawDegrees": 2.3
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -23,
+            "yawDegrees": -11
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 250,
+            "heightPercent": 50,
+            "pitchDegrees": -23.2,
+            "yawDegrees": -24.4
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1511,
+          "targetY": 28,
+          "targetWidth": 252,
+          "targetHeight": 252,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -18.3,
+            "yawDegrees": -31.6
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
     },
 
-
     {
-      // ---------------------------------------------------------------
-      // UNVERIFIED SKELETON — copied from the 2024 profile as a starting
-      // point. Before trusting this on MSFS 2020:
-      //   1. Verify the camera MECHANISMS on 2020 with the dev buttons
-      //      (Reset view, Apply framing, Drag test) — 2020 may honor
-      //      simvars that 2024 killed, or differ in other ways.
-      //   2. Verify the TITLE the 2020 aircraft reports (aircraft card).
-      //   3. Re-author framings and RE-CALIBRATE all four panels on 2020;
-      //      2024 numbers do not transfer sight-unseen.
-      // ---------------------------------------------------------------
+      "profileName": "GA Six-Pack (MSFS 2020)",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "Diamond",
+        "A2A Piper",
+        "Cessna 152",
+        "Cessna skyhawk",
+        "DHC-2"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Boeing 737 PMDG (MSFS 2020)",
+      "sim": "fs2020",
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "MFD"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "titlePrefixes": [
+        "737-800",
+        "737-600",
+        "737-700"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 10,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 645,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -17,
+            "yawDegrees": -30
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1290,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 60,
+            "pitchDegrees": -30,
+            "yawDegrees": -36
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1935,
+          "targetY": 70,
+          "targetWidth": 616,
+          "targetHeight": 616,
+          "postPopDelayMs": 2000
+        }
+      ]
+    },
+    {
+      "profileName": "Default A320NEO",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "A320NEO"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -14,
+            "yawDegrees": 3
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -14,
+            "yawDegrees": -8.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 50,
+            "pitchDegrees": -12,
+            "yawDegrees": -27.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
+      "profileName": "Fenix Airbus A320 (MSFS 2020)",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "FenixA320"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -24,
+            "yawDegrees": 1.7
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 0,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -23,
+            "yawDegrees": -11
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 714,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -25,
+            "yawDegrees": -25
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1511,
+          "targetY": 28,
+          "targetWidth": 252,
+          "targetHeight": 252,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "Placard",
+          "image": "Assets\\images\\a320speed.png",
+          "targetX": 1500,
+          "targetY": 345,
+          "targetWidth": 274,
+          "targetHeight": 346
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 200,
+            "heightPercent": 60,
+            "pitchDegrees": -20.5,
+            "yawDegrees": -30.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1890,
+          "targetY": 7,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 2000
+        }
+      ]
+    },
+    {
+      "profileName": "ATR (MSFS2020)",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "ATR"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -30,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 266,
+          "targetY": 0,
+          "targetWidth": 554,
+          "targetHeight": 684,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -30,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1000,
+          "targetY": 0,
+          "targetWidth": 554,
+          "targetHeight": 684,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -24,
+            "yawDegrees": -33
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1734,
+          "targetY": 0,
+          "targetWidth": 554,
+          "targetHeight": 684,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
       "profileName": "Boeing 777-300ER (MSFS 2020)",
       "sim": "fs2020",
-      "titlePrefixes": [ "777-300ER" ],
-
+      "titlePrefixes": [
+        "777-300ER"
+      ],
       "panels": [
         {
           "name": "PFD",
@@ -591,22 +1612,85 @@
         }
       ]
     },
-
     {
-      // ---------------------------------------------------------------
-      // UNVERIFIED SKELETON — copied from the 2024 profile as a starting
-      // point. Before trusting this on MSFS 2020:
-      //   1. Verify the camera MECHANISMS on 2020 with the dev buttons
-      //      (Reset view, Apply framing, Drag test) — 2020 may honor
-      //      simvars that 2024 killed, or differ in other ways.
-      //   2. Verify the TITLE the 2020 aircraft reports (aircraft card).
-      //   3. Re-author framings and RE-CALIBRATE all four panels on 2020;
-      //      2024 numbers do not transfer sight-unseen.
-      // ---------------------------------------------------------------
+      "profileName": "Default Airbus A319-321",
+      "sim": "fs2020",
+      "titlePrefixes": [
+        "A320"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -25,
+            "yawDegrees": 0
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 3,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -25,
+            "yawDegrees": -12
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 717,
+          "targetY": 5,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "SAI",
+          "cameraFraming": {
+            "zoomPercent": 150,
+            "heightPercent": 50,
+            "pitchDegrees": -24,
+            "yawDegrees": -24
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1508,
+          "targetY": 27,
+          "targetWidth": 252,
+          "targetHeight": 252,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ED",
+          "cameraFraming": {
+            "zoomPercent": 100,
+            "heightPercent": 50,
+            "pitchDegrees": -20,
+            "yawDegrees": -32
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1885,
+          "targetY": 3,
+          "targetWidth": 669,
+          "targetHeight": 669,
+          "postPopDelayMs": 1500
+        }
+      ]
+    },
+    {
       "profileName": "E-jet (MSFS 2020)",
       "sim": "fs2020",
-      "titlePrefixes": [ "FSS Embraer E170" ],
-
+      "titlePrefixes": [
+        "FSS Embraer E170"
+      ],
       "panels": [
         {
           "name": "PFD",
@@ -664,7 +1748,7 @@
             "pitchDegrees": 0,
             "yawDegrees": 0
           },
-          "sourceXPercent": 0.7820,
+          "sourceXPercent": 0.782,
           "sourceYPercent": 0.7256,
           "targetX": 2050,
           "targetY": 150,
@@ -674,150 +1758,233 @@
         }
       ]
     },
-{
-  "profileName": "Zibo 737-800X (X-Plane 12)",
-  "sim": "xp12",
-  "titlePrefixes": [ "Boeing 737-800X" ],
-  "atcModels": [ "B738" ],
-  "panels": [
-    { "name": "PFD", "windowTitle": "PFD",
-      "targetX": 161, "targetY": 33, "targetWidth": 936, "targetHeight": 684 },
-    { "name": "ND",  "windowTitle": "ND",
-      "targetX": 1457, "targetY": 33, "targetWidth": 936, "targetHeight": 684 }
-  ]
-},
-{
-  "profileName": "ToLiss A319/A320/A321 (X-Plane 12)",
-  "sim": "xp12",
-  "titlePrefixes": [ "ToLiSs", "ToLiss" ],
-  "atcModels": [ "A319", "A320", "A321", "A19N", "A20N", "A21N" ],
-  "firstOfficerSwaps": [ ["PFD", "SD"], ["ND", "EWD"] ],
-  "panels": [
-    { "name": "PFD", "windowTitle": "Toliss Captain Left DU",
-      "targetX": 10, "targetY": 10, "targetWidth": 650, "targetHeight": 650 },
-    { "name": "ND", "windowTitle": "Toliss Captain Right DU",
-      "targetX": 680, "targetY": 10, "targetWidth": 650, "targetHeight": 650 },
-    { "name": "EWD", "windowTitle": "Toliss ISI",
-      "targetX": 1370, "targetY": 15, "targetWidth": 125, "targetHeight": 125 },
-    { "name": "SD", "windowTitle": "Toliss Upper Ecam",
-      "targetX": 1935, "targetY": 10, "targetWidth": 650, "targetHeight": 650 }
-  ]
-},
-
     {
-      // ---------------------------------------------------------------
-      // GA SIX-PACK — APP-RENDERED GAUGES (no pop-outs).
-      // Steam gauges aren't poppable in MSFS; panels with "gaugeType"
-      // are drawn by the app itself, fed live by SimConnect data. Camera
-      // and source fields don't apply to gauge panels.
-      //
-      // CURRENTLY IMPLEMENTED: "airspeed". The remaining five below are
-      // authored ahead of implementation — the app will log/skip unknown
-      // gauge types until each lands: "attitude", "altimeter", "turn",
-      // "heading", "vsi".
-      //
-      // TITLE: verify with the aircraft card and replace the prefix.
-      // LAYOUT: classic two-row six-pack across the 2560x720 LCD —
-      // top row ASI / AI / ALT, bottom row TURN / HDG / VSI, 350px round
-      // tiles. Adjust to your physical overlay's cutout geometry.
-      // ---------------------------------------------------------------
-      "profileName": "Cessna 172 Six-Pack (MSFS 2024)",
-      "sim": "fs2024",
-      "titlePrefixes": [ "C172SP Classic Passengers" ],
-
+      "profileName": "ToLiss A319/A320/A321 (X-Plane 12)",
+      "sim": "xp12",
+      "titlePrefixes": [
+        "ToLiSs"
+      ],
+      "atcModels": [
+        "A319",
+        "A320",
+        "A321",
+        "A19N",
+        "A20N",
+        "A21N",
+        "A340",
+        "A333",
+        "A339"
+      ],
       "panels": [
         {
-          "name": "Airspeed",
-          "gaugeType": "airspeed",
-          "targetX": 30,  "targetY": 20,
-          "targetWidth": 436, "targetHeight": 436
+          "name": "PFD",
+          "windowTitle": "Toliss Captain Left DU",
+          "targetX": 0,
+          "targetY": 10,
+          "targetWidth": 669,
+          "targetHeight": 669
         },
         {
-          "name": "Attitude",
-          "gaugeType": "attitude",
-          "targetX": 810, "targetY": 20,
-          "targetWidth": 436, "targetHeight": 436
+          "name": "ND",
+          "windowTitle": "Toliss Captain Right DU",
+          "targetX": 714,
+          "targetY": 10,
+          "targetWidth": 669,
+          "targetHeight": 669
         },
         {
-          "name": "Altimeter",
-          "gaugeType": "altimeter",
-          "targetX": 1610, "targetY": 5,
-          "targetWidth": 436, "targetHeight": 436
+          "name": "EWD",
+          "windowTitle": "Toliss ISI",
+          "targetX": 1507,
+          "targetY": 31,
+          "targetWidth": 252,
+          "targetHeight": 252
         },
         {
-          "name": "Turn Coordinator",
-          "gaugeType": "turn",
-          "targetX": 410,  "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
-        },
-        {
-          "name": "Heading",
-          "gaugeType": "heading",
-          "targetX": 1200, "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
-        },
-        {
-          "name": "Vertical Speed",
-          "gaugeType": "vsi",
-          "targetX": 2000, "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
+          "name": "SD",
+          "windowTitle": "Toliss Upper Ecam",
+          "targetX": 1890,
+          "targetY": 10,
+          "targetWidth": 669,
+          "targetHeight": 669
         }
       ]
     },
-
     {
-      // ---------------------------------------------------------------
-      // GA SIX-PACK on X-PLANE 12 — same app-rendered gauges, fed by the
-      // ProDeskSim bridge plugin. Matching uses X-Plane's own identity
-      // strings: acf_ICAO (atcModels tier) + acf_ui_name prefix.
-      // "Cessna Skyhawk" covers the default XP12 C172 variants; the C172
-      // ICAO catches float/trainer variants whatever their UI name.
-      // Verify/extend with the [xplane] aircraft trace line if needed.
-      // ---------------------------------------------------------------
+      "profileName": "Zibo 737-800X (X-Plane 12)",
+      "sim": "xp12",
+      "titlePrefixes": [
+        "Boeing 737-800X",
+        "Boeing 737-800"
+      ],
+      "atcModels": [
+        "B738"
+      ],
+      "firstOfficerSwaps": [
+        [
+          "PFD",
+          "EICAS2"
+        ],
+        [
+          "ND",
+          "EICAS"
+        ]
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "windowTitle": "HSI",
+          "targetX": 10,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613
+        },
+        {
+          "name": "ND",
+          "windowTitle": "ND",
+          "targetX": 653,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613
+        },
+        {
+          "name": "EICAS",
+          "windowTitle": "EICAS",
+          "targetX": 1296,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613
+        },
+        {
+          "name": "EICAS2",
+          "windowTitle": "EICAS-2",
+          "targetX": 1939,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613
+        }
+      ]
+    },
+    {
       "profileName": "Cessna 172 Six-Pack (X-Plane 12)",
       "sim": "xp12",
-      "titlePrefixes": [ "Cessna Skyhawk", "Cessna 172" ],
-      "atcModels": [ "C172" ],
-
+      "titlePrefixes": [
+        "Cessna Skyhawk",
+        "Cessna 172"
+      ],
+      "atcModels": [
+        "C172"
+      ],
       "panels": [
         {
           "name": "Airspeed",
           "gaugeType": "airspeed",
-          "targetX": 30,  "targetY": 20,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
         },
         {
           "name": "Attitude",
           "gaugeType": "attitude",
-          "targetX": 810, "targetY": 20,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
         },
         {
           "name": "Altimeter",
           "gaugeType": "altimeter",
-          "targetX": 1610, "targetY": 5,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
         },
         {
           "name": "Turn Coordinator",
           "gaugeType": "turn",
-          "targetX": 410,  "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
         },
         {
           "name": "Heading",
           "gaugeType": "heading",
-          "targetX": 1200, "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
         },
         {
           "name": "Vertical Speed",
           "gaugeType": "vsi",
-          "targetX": 2000, "targetY": 260,
-          "targetWidth": 436, "targetHeight": 436
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "Piper Arrow Six-Pack (X-Plane 12)",
+      "sim": "xp12",
+      "titlePrefixes": [
+        "PA28"
+      ],
+      "atcModels": [
+        "Arrow"
+      ],
+      "panels": [
+        {
+          "name": "Airspeed",
+          "gaugeType": "airspeed",
+          "targetX": 30,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Attitude",
+          "gaugeType": "attitude",
+          "targetX": 810,
+          "targetY": 20,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Altimeter",
+          "gaugeType": "altimeter",
+          "targetX": 1610,
+          "targetY": 5,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Turn Coordinator",
+          "gaugeType": "turn",
+          "targetX": 410,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Heading",
+          "gaugeType": "heading",
+          "targetX": 1200,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
+        },
+        {
+          "name": "Vertical Speed",
+          "gaugeType": "vsi",
+          "targetX": 2000,
+          "targetY": 260,
+          "targetWidth": 436,
+          "targetHeight": 436
         }
       ]
     }
-
   ]
 }
