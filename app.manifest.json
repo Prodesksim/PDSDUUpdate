@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
   "url": "https://github.com/Prodesksim/PDSDUUpdate/releases/download/v1.0.2/ProDeskSim-DisplayUnitManager-Setup-1.0.2.exe",
-  "sha256": "45aea013985ad66dbf90958618f0d800f707cc240f55660f97d66e9ad259dc40",
+  "sha256": "a6a2a112cb58a43497bf70a97448802efbf9a80f45f1a5da0b4567f2ff71f88b",
   "notes": "ProDeskSim Display Unit Manager v1.0.2\r\n\r\nEverything in 1.0.1, delivered through the new automatic updater:\r\n- ChasePlane support (manual pop-out mode with on-screen order guide)\r\n- Automatic software updates (you are watching them work right now)\r\n- Esc stops a placement run\r\n- Fix: third-party MCDU/display tools keep their windows and borderless style"
 }
