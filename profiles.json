@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "profiles": [
     {
       "profileName": "Boeing 737 MAX (MSFS 2024)",
@@ -1108,11 +1108,11 @@
         }
       ]
     },
- {
+    {
       "profileName": "FBW A320",
       "sim": "fs2020",
       "titlePrefixes": [
-        "A320"
+        "FlyByWire"
       ],
       "panels": [
         {
@@ -1189,7 +1189,6 @@
         }
       ]
     },
-
     {
       "profileName": "GA Six-Pack (MSFS 2020)",
       "sim": "fs2020",

@@ -1,6 +1,6 @@
 {
-    "version":  2,
-    "url":  "https://raw.githubusercontent.com/Prodesksim/PDSDUUpdate/main/profiles.json",
-    "sha256":  "2e5e3e2be421c5810ac8072aa51f91a6a094c919d4e55a231efa91a31415c49d",
-    "notes":  "Profile library v2"
+  "version": 3,
+  "url": "https://raw.githubusercontent.com/Prodesksim/PDSDUUpdate/main/profiles.json",
+  "sha256": "216a4cf43d337f498ee737dafe43f4f5cb5e09506a7e682c19fbd43718593bc1",
+  "notes": "Profile library v3 - FBW A320 (MSFS 2020) matcher fixed to 'FlyByWire' (no longer collides with Default A319-321)"
 }
