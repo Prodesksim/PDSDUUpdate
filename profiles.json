@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "profiles": [
     {
       "profileName": "Boeing 737 MAX (MSFS 2024)",
@@ -1982,6 +1982,79 @@
           "targetY": 260,
           "targetWidth": 436,
           "targetHeight": 436
+        }
+      ]
+    },
+    {
+      "profileName": "BlueBird 757-200 PW N/W (MSFS 2024)",
+      "sim": "fs2024",
+      "titlePrefixes": [
+        "BlueBird 757-200 PW N/W"
+      ],
+      "panels": [
+        {
+          "name": "PFD",
+          "cameraFraming": {
+            "zoomPercent": 100.0,
+            "heightPercent": 50.0,
+            "pitchDegrees": -14.9,
+            "yawDegrees": -0.6
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 10,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "ND",
+          "cameraFraming": {
+            "zoomPercent": 100.0,
+            "heightPercent": 50.0,
+            "pitchDegrees": -25.7,
+            "yawDegrees": -0.5
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 652,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "EICAS",
+          "cameraFraming": {
+            "zoomPercent": 100.0,
+            "heightPercent": 50.0,
+            "pitchDegrees": -13.0,
+            "yawDegrees": -32.9
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1294,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613,
+          "postPopDelayMs": 1500
+        },
+        {
+          "name": "MFD",
+          "cameraFraming": {
+            "zoomPercent": 100.0,
+            "heightPercent": 50.0,
+            "pitchDegrees": -21.8,
+            "yawDegrees": -33.3
+          },
+          "sourceXPercent": 0.5,
+          "sourceYPercent": 0.5,
+          "targetX": 1937,
+          "targetY": 70,
+          "targetWidth": 613,
+          "targetHeight": 613,
+          "postPopDelayMs": 1500
         }
       ]
     }

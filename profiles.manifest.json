@@ -1,6 +1,6 @@
 {
-  "version": 3,
+  "version": 4,
   "url": "https://raw.githubusercontent.com/Prodesksim/PDSDUUpdate/main/profiles.json",
-  "sha256": "216a4cf43d337f498ee737dafe43f4f5cb5e09506a7e682c19fbd43718593bc1",
-  "notes": "Profile library v3 - FBW A320 (MSFS 2020) matcher fixed to 'FlyByWire' (no longer collides with Default A319-321)"
+  "sha256": "26fae10875eb82ba29985b1598abf318b069d1b568100dcfe990f97bb4dd93d7",
+  "notes": "Profile library v4 - adds BlueBird 757-200 PW N/W (MSFS 2024): PFD, ND, EICAS, MFD"
 }
