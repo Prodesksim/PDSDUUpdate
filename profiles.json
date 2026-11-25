@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "profiles": [
     {
       "profileName": "Boeing 737 MAX (MSFS 2024)",
@@ -1989,7 +1989,7 @@
       "profileName": "BlueBird 757-200 PW N/W (MSFS 2024)",
       "sim": "fs2024",
       "titlePrefixes": [
-        "BlueBird 757-200 PW N/W"
+        "BlueBird 757"
       ],
       "panels": [
         {

@@ -1,6 +1,6 @@
 {
-  "version": 4,
+  "version": 5,
   "url": "https://raw.githubusercontent.com/Prodesksim/PDSDUUpdate/main/profiles.json",
-  "sha256": "26fae10875eb82ba29985b1598abf318b069d1b568100dcfe990f97bb4dd93d7",
-  "notes": "Profile library v4 - adds BlueBird 757-200 PW N/W (MSFS 2024): PFD, ND, EICAS, MFD"
+  "sha256": "49977b7f52989aac563950d32e12fb30e2f6e1521d6f59ef6835ceb406a12ec4",
+  "notes": "Profile library v5 - BlueBird 757 matcher widened to all variants"
 }
